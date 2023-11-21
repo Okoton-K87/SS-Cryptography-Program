@@ -46,13 +46,13 @@ USAGE
 ./keygen [OPTIONS]
 
 OPTIONS
--h Display program help and usage.
--v Display verbose program output.
--b bits Minimum bits needed for public key n (default: 256).
--i iterations Miller-Rabin iterations for testing primes (default: 50).
--n pbfile Public key file (default: ss.pub).
--d pvfile Private key file (default: ss.priv).
--s seed Random seed for testing.
+1. -h Display program help and usage.
+2. -v Display verbose program output.
+3. -b bits Minimum bits needed for public key n (default: 256).
+4. -i iterations Miller-Rabin iterations for testing primes (default: 50).
+5. -n pbfile Public key file (default: ss.pub).
+6. -d pvfile Private key file (default: ss.priv).
+7. -s seed Random seed for testing.
 
 ### `encrypt`
 SYNOPSIS
@@ -63,11 +63,11 @@ USAGE
 ./encrypt [OPTIONS]
 
 OPTIONS
--h Display program help and usage.
--v Display verbose program output.
--i infile Input file of data to encrypt (default: stdin).
--o outfile Output file for encrypted data (default: stdout).
--n pbfile Public key file (default: ss.pub).
+1. -h Display program help and usage.
+2. -v Display verbose program output.
+3. -i infile Input file of data to encrypt (default: stdin).
+4. -o outfile Output file for encrypted data (default: stdout).
+5. -n pbfile Public key file (default: ss.pub).
 
 ### `decrypt`
 SYNOPSIS
@@ -78,11 +78,11 @@ USAGE
 ./decrypt [OPTIONS]
 
 OPTIONS
--h Display program help and usage.
--v Display verbose program output.
--i infile Input file of data to decrypt (default: stdin).
--o outfile Output file for decrypted data (default: stdout).
--n pvfile Private key file (default: ss.priv).
+1. -h Display program help and usage.
+2. -v Display verbose program output.
+3. -i infile Input file of data to decrypt (default: stdin).
+4. -o outfile Output file for decrypted data (default: stdout).
+5. -n pvfile Private key file (default: ss.priv).
 
 
 
