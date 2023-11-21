@@ -1,4 +1,4 @@
-# Assignment 5 - SS Cryptography Program
+# SS Cryptography Program
 
 ## Description:
 This program provides SS encryption and decryption functionality. It includes the following components:
